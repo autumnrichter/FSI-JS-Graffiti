@@ -18,5 +18,5 @@ let footer = document.querySelector('.footer')
 
 let transformDogImages = document.querySelectorAll('.dog-image')
 for(let i = 0; i < transformDogImages.length; i++){
-	transformDogImages[i].style.transform = scaleY(-1)
+	transformDogImages[i].style.transform = 'scaleY(-1)'
 }
